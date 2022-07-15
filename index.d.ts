@@ -79,7 +79,7 @@ export class MessageBuilder {
 	setURL(url: string): this;
 	setThumbnail(thumbnailUrl: string): this;
 	setImage(image: string): this;
-	setTimestamp(): this;
+	setTimestamp(date: Date | string): this;
 	setColor(color: string): this;
 	setDescription(description: string): this;
 	addField(fieldName: string, fieldValue: string, inline?: boolean): this;
